@@ -47,32 +47,34 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    fetch('https://randomuser.me/api/?results=25')
-      .then(response => response.json())
-      .then(data => {
-        const images = data.results.map(user => ({ image: user.picture.medium }));
+    fetch('https://nieamulkabir.github.io/task/image.json')
+    .then(response => response.json())
+    .then(data => {
+      const images = data;
 
-        const imageGrid = document.getElementById('imageGrid');
+      const imageGrid = document.getElementById('imageGrid');
 
-        // Preload images
-        images.forEach(imageData => {
-          const img = new Image();
-          img.src = imageData.image;
-        });
+      // Load images into grid
+      images.forEach(imageData => {
+        const imageContainer = document.createElement('div');
+        imageContainer.classList.add('image-container');
 
-        // Load images into grid
-        images.forEach(imageData => {
-          const imageContainer = document.createElement('div');
-          imageContainer.classList.add('image-container');
+        const img = document.createElement('img');
+        img.src = imageData.image;
 
-          const img = document.createElement('img');
-          img.src = imageData.image;
+        const name = document.createElement('p');
+        name.textContent = imageData.name;
 
-          imageContainer.appendChild(img);
-          imageGrid.appendChild(imageContainer);
-        });
-      })
-      .catch(error => console.error('Error loading images:', error));
+        const designation = document.createElement('p');
+        designation.textContent = imageData.designation;
+
+        imageContainer.appendChild(img);
+        imageContainer.appendChild(name);
+        imageContainer.appendChild(designation);
+        imageGrid.appendChild(imageContainer);
+      });
+    })
+    .catch(error => console.error('Error loading images:', error));
   });
 </script>
 </body>

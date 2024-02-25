@@ -1,21 +1,21 @@
 [
     {
         "id":1,
-        "image":"https://randomuser.me/api/portraits/med/women/71.jpg",
+        "image":"https://www.squarehospital.com/storage/images/1674367212.png",
         "name":"Mihailo Vidić",
         "designation":"Dental Care"
       
     },
     {
         "id":2,
-        "image":"https://randomuser.me/api/portraits/med/women/18.jpg",
+        "image":"https://www.shutterstock.com/image-photo/young-asian-female-doctor-standing-600nw-2138546201.jpg",
         "name":"Naqwaz Joharji",
         "designation":"Orthodonist"
       
     },
     {
         "id":3,
-        "image":"https://randomuser.me/api/portraits/med/men/25.jpg",
+        "image":"https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name":"Mohammad Sakib",
         "designation":"Orthodonist"
       
@@ -23,7 +23,7 @@
     {
 
         "id":4,
-        "image": "https://randomuser.me/api/portraits/med/men/54.jpg",
+        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name":"Jatin Dsouza",
         "designation":"Orthodonist"
      
@@ -44,7 +44,7 @@
     },
     {
         "id":7,
-        "image":"https://randomuser.me/api/portraits/med/men/25.jpg",
+        "image":"https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name":"Mohammad Sakib",
         "designation":"Orthodonist"
       
