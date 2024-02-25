@@ -9,6 +9,11 @@
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <style>
+      .image-container:hover {
+        background-color: #6bc4b8;
+      }
+    </style>
   </head>
   <body>
     <div class="container mx-auto px-4">
@@ -39,7 +44,7 @@
                 "transition",
                 "transform",
                 "hover:scale-105",
-                "hover:bg-green-100"
+                "hover:text-white"
               );
 
               const img = document.createElement("img");
@@ -61,7 +66,8 @@
                 "text-sm",
                 "text-gray-600",
                 "text-center",
-                "mb-2"	
+                "mb-2",
+                "hover:text-white"
               );
 
               imageContainer.appendChild(img);
