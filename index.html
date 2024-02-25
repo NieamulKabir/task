@@ -1,81 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>User Images</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor's</title>
+    <!-- Include Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mx-auto px-4">
+      <h1 class="text-center text-3xl mt-4 space-x-1">Select Doctor</h1>
+      <hr class="w-28 h-10 border-t border-green-500 mx-auto mb-10" />
+      <div class="grid grid-cols-3 gap-4" id="imageGrid">
+        <!-- Images will be dynamically loaded here -->
+      </div>
+    </div>
 
-  .container {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 20px;
-  }
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("https://nieamulkabir.github.io/task/image.json")
+          .then((response) => response.json())
+          .then((data) => {
+            const images = data;
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 20px;
-  }
+            const imageGrid = document.getElementById("imageGrid");
 
-  .image-container {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+            // Load images into grid
+            images.forEach((imageData) => {
+              const imageContainer = document.createElement("div");
+              imageContainer.classList.add(
+                "image-container",
+                "rounded-lg",
+                "overflow-hidden",
+                "shadow-md",
+                "transition",
+                "transform",
+                "hover:scale-105",
+                "hover:bg-green-100"
+              );
 
-  .image-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-</style>
-</head>
-<body>
-<div class="container">
-  <div class="grid" id="imageGrid">
-    <!-- Images will be dynamically loaded here -->
-  </div>
-</div>
+              const img = document.createElement("img");
+              img.src = imageData.image;
+              img.classList.add("w-full", "h-64");
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    fetch('https://nieamulkabir.github.io/task/image.json')
-    .then(response => response.json())
-    .then(data => {
-      const images = data;
+              const name = document.createElement("p");
+              name.textContent = imageData.name;
+              name.classList.add(
+                "text-lg",
+                "font-semibold",
+                "mt-2",
+                "text-center"
+              );
 
-      const imageGrid = document.getElementById('imageGrid');
+              const designation = document.createElement("p");
+              designation.textContent = imageData.designation;
+              designation.classList.add(
+                "text-sm",
+                "text-gray-600",
+                "text-center",
+                "mb-2"	
+              );
 
-      // Load images into grid
-      images.forEach(imageData => {
-        const imageContainer = document.createElement('div');
-        imageContainer.classList.add('image-container');
-
-        const img = document.createElement('img');
-        img.src = imageData.image;
-
-        const name = document.createElement('p');
-        name.textContent = imageData.name;
-
-        const designation = document.createElement('p');
-        designation.textContent = imageData.designation;
-
-        imageContainer.appendChild(img);
-        imageContainer.appendChild(name);
-        imageContainer.appendChild(designation);
-        imageGrid.appendChild(imageContainer);
+              imageContainer.appendChild(img);
+              imageContainer.appendChild(name);
+              imageContainer.appendChild(designation);
+              imageGrid.appendChild(imageContainer);
+            });
+          })
+          .catch((error) => console.error("Error loading images:", error));
       });
-    })
-    .catch(error => console.error('Error loading images:', error));
-  });
-</script>
-</body>
+    </script>
+  </body>
 </html>

@@ -1,183 +1,152 @@
 [
-    {
-        "id":1,
-        "image":"https://www.squarehospital.com/storage/images/1674367212.png",
-        "name":"Mihailo Vidić",
-        "designation":"Dental Care"
-      
-    },
-    {
-        "id":2,
-        "image":"https://www.shutterstock.com/image-photo/young-asian-female-doctor-standing-600nw-2138546201.jpg",
-        "name":"Naqwaz Joharji",
-        "designation":"Orthodonist"
-      
-    },
-    {
-        "id":3,
-        "image":"https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "name":"Mohammad Sakib",
-        "designation":"Orthodonist"
-      
-    },
-    {
-
-        "id":4,
-        "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "name":"Jatin Dsouza",
-        "designation":"Orthodonist"
-     
-    },
-    {
-        "id":5,
-        "image":"https://randomuser.me/api/portraits/med/women/71.jpg",
-        "name":"Mihailo Vidić",
-        "designation":"Dental Care"
-      
-    },
-    {
-        "id":6,
-        "image":"https://randomuser.me/api/portraits/med/women/18.jpg",
-        "name":"Naqwaz Joharji",
-        "designation":"Orthodonist"
-      
-    },
-    {
-        "id":7,
-        "image":"https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "name":"Mohammad Sakib",
-        "designation":"Orthodonist"
-      
-    },
-    {
-
-        "id":8,
-        "image": "https://randomuser.me/api/portraits/med/men/54.jpg",
-        "name":"Jatin Dsouza",
-        "designation":"Orthodonist"
-     
-    },
-    {
-        "id":9,
-        "image":"https://randomuser.me/api/portraits/med/women/71.jpg",
-        "name":"Mihailo Vidić",
-        "designation":"Dental Care"
-      
-    },
-    {
-        "id":10,
-        "image":"https://randomuser.me/api/portraits/med/women/18.jpg",
-        "name":"Naqwaz Joharji",
-        "designation":"Orthodonist"
-      
-    },
-    {
-        "id":11,
-        "image":"https://randomuser.me/api/portraits/med/men/25.jpg",
-        "name":"Mohammad Sakib",
-        "designation":"Orthodonist"
-      
-    },
-    {
-
-        "id":12,
-        "image": "https://randomuser.me/api/portraits/med/men/54.jpg",
-        "name":"Jatin Dsouza",
-        "designation":"Orthodonist"
-     
-    },
-    {
-        "id":13,
-        "image":"https://randomuser.me/api/portraits/med/women/71.jpg",
-        "name":"Mihailo Vidić",
-        "designation":"Dental Care"
-      
-    },
-    {
-        "id":14,
-        "image":"https://randomuser.me/api/portraits/med/women/18.jpg",
-        "name":"Naqwaz Joharji",
-        "designation":"Orthodonist"
-      
-    },
-    {
-        "id":15,
-        "image":"https://randomuser.me/api/portraits/med/men/25.jpg",
-        "name":"Mohammad Sakib",
-        "designation":"Orthodonist"
-      
-    },
-    {
-
-        "id":16,
-        "image": "https://randomuser.me/api/portraits/med/men/54.jpg",
-        "name":"Jatin Dsouza",
-        "designation":"Orthodonist"
-     
-    },
-    {
-        "id":17,
-        "image":"https://randomuser.me/api/portraits/med/women/71.jpg",
-        "name":"Mihailo Vidić",
-        "designation":"Dental Care"
-      
-    },
-    {
-        "id":18,
-        "image":"https://randomuser.me/api/portraits/med/women/18.jpg",
-        "name":"Naqwaz Joharji",
-        "designation":"Orthodonist"
-      
-    },
-    {
-        "id":19,
-        "image":"https://randomuser.me/api/portraits/med/men/25.jpg",
-        "name":"Mohammad Sakib",
-        "designation":"Orthodonist"
-      
-    },
-    {
-
-        "id":20,
-        "image": "https://randomuser.me/api/portraits/med/men/54.jpg",
-        "name":"Jatin Dsouza",
-        "designation":"Orthodonist"
-     
-    },
-    {
-        "id":21,
-        "image":"https://randomuser.me/api/portraits/med/women/71.jpg",
-        "name":"Mihailo Vidić",
-        "designation":"Dental Care"
-      
-    },
-    {
-        "id":22,
-        "image":"https://randomuser.me/api/portraits/med/women/18.jpg",
-        "name":"Naqwaz Joharji",
-        "designation":"Orthodonist"
-      
-    },
-    {
-        "id":23,
-        "image":"https://randomuser.me/api/portraits/med/men/25.jpg",
-        "name":"Mohammad Sakib",
-        "designation":"Orthodonist"
-      
-    },
-    {
-
-        "id":24,
-        "image": "https://randomuser.me/api/portraits/med/men/54.jpg",
-        "name":"Jatin Dsouza",
-        "designation":"Orthodonist"
-     
-    },
-    {
-        "id":25,
-        "image":"https://randomuser.me/api/portraits/med/women/71.jpg",
-        "name":"Mihailo Vidić",
-        "designation":"Dental Care"
-      
-    }
-  ]
+  {
+    "id": 1,
+    "image": "https://www.squarehospital.com/storage/images/1674367212.png",
+    "name": "Mihailo Vidić",
+    "designation": "Dental Care"
+  },
+  {
+    "id": 2,
+    "image": "https://www.shutterstock.com/image-photo/young-asian-female-doctor-standing-600nw-2138546201.jpg",
+    "name": "Naqwaz Joharji",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "Mohammad Sakib",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 4,
+    "image": "https://t4.ftcdn.net/jpg/03/20/74/45/360_F_320744517_TaGkT7aRlqqWdfGUuzRKDABtFEoN5CiO.jpg",
+    "name": "Jatin Dsouza",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "Mihailo Vidić",
+    "designation": "Dental Care"
+  },
+  {
+    "id": 6,
+    "image": "https://randomuser.me/api/portraits/med/women/18.jpg",
+    "name": "Naqwaz Joharji",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "Mohammad Sakib",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 8,
+    "image": "https://img.freepik.com/premium-photo/medical-concept-asian-beautiful-female-doctor-white-coat-with-glasses-waist-high-medical-student-female-hospital-worker-looks-into-camera-smiles-studio-blue-background_185696-614.jpg",
+    "name": "Jatin Dsouza",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 9,
+    "image": "https://as1.ftcdn.net/v2/jpg/03/12/13/92/1000_F_312139293_gr91AOWm0UtOK6lbsIPZTI4wfyQwVPk1.jpg",
+    "name": "Mihailo Vidić",
+    "designation": "Dental Care"
+  },
+  {
+    "id": 10,
+    "image": "https://randomuser.me/api/portraits/med/women/18.jpg",
+    "name": "Naqwaz Joharji",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 11,
+    "image": "https://randomuser.me/api/portraits/med/men/25.jpg",
+    "name": "Mohammad Sakib",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 12,
+    "image": "https://randomuser.me/api/portraits/med/men/54.jpg",
+    "name": "Jatin Dsouza",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 13,
+    "image": "https://randomuser.me/api/portraits/med/women/71.jpg",
+    "name": "Mihailo Vidić",
+    "designation": "Dental Care"
+  },
+  {
+    "id": 14,
+    "image": "https://randomuser.me/api/portraits/med/women/18.jpg",
+    "name": "Naqwaz Joharji",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 15,
+    "image": "https://randomuser.me/api/portraits/med/men/25.jpg",
+    "name": "Mohammad Sakib",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 16,
+    "image": "https://randomuser.me/api/portraits/med/men/54.jpg",
+    "name": "Jatin Dsouza",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 17,
+    "image": "https://randomuser.me/api/portraits/med/women/71.jpg",
+    "name": "Mihailo Vidić",
+    "designation": "Dental Care"
+  },
+  {
+    "id": 18,
+    "image": "https://randomuser.me/api/portraits/med/women/18.jpg",
+    "name": "Naqwaz Joharji",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 19,
+    "image": "https://randomuser.me/api/portraits/med/men/25.jpg",
+    "name": "Mohammad Sakib",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 20,
+    "image": "https://randomuser.me/api/portraits/med/men/54.jpg",
+    "name": "Jatin Dsouza",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 21,
+    "image": "https://randomuser.me/api/portraits/med/women/71.jpg",
+    "name": "Mihailo Vidić",
+    "designation": "Dental Care"
+  },
+  {
+    "id": 22,
+    "image": "https://randomuser.me/api/portraits/med/women/18.jpg",
+    "name": "Naqwaz Joharji",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 23,
+    "image": "https://randomuser.me/api/portraits/med/men/25.jpg",
+    "name": "Mohammad Sakib",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 24,
+    "image": "https://randomuser.me/api/portraits/med/men/54.jpg",
+    "name": "Jatin Dsouza",
+    "designation": "Orthodonist"
+  },
+  {
+    "id": 25,
+    "image": "https://randomuser.me/api/portraits/med/women/71.jpg",
+    "name": "Mihailo Vidić",
+    "designation": "Dental Care"
+  }
+]
